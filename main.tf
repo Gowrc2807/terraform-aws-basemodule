@@ -1,4 +1,4 @@
-resource "aws_instance" "shanawsserver" {
+resource "aws_instance" "myawsserver" {
   ami = var.image
   instance_type = var.hardware
 
